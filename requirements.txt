@@ -1,0 +1,8 @@
+django==1.4.2
+django-extensions==0.9
+django-model-utils
+django-debug-toolbar==0.9.4
+South==0.7.6
+lxml==2.3.5
+django-compressor==1.2
+easy-thumbnails==1.1

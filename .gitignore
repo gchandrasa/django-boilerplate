@@ -1,0 +1,9 @@
+.DS_Store
+media/*
+static/*
+*.pyc
+*.pyo
+*~
+*.db
+*.sqlite
+.sass-cache
