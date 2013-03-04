@@ -29,6 +29,10 @@ Change directory to \<project_name\>
 
     cd <project_name>
 
+Ignore settings_local.py
+
+    echo $'\nsettings_local.py' >> .gitignore
+
 Reinitialize repository
 
     rm -rf .git
