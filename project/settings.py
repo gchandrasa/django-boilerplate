@@ -18,8 +18,8 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '',                      # Or path to database file if using sqlite3.
+        'ENGINE': 'django.db.backends.sqlite3',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': 'boilerplate.sqlite3',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -94,7 +94,7 @@ SECRET_KEY = 'qx^zt4)e4x^y$ofh%-!+q+8^xbr!jj12b4aen1wv4^sv)=hm%^'
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
-#     'django.template.loaders.eggs.Loader',
+    # 'django.template.loaders.eggs.Loader',
 )
 
 
@@ -130,7 +130,6 @@ INSTALLED_APPS = (
     'django.contrib.formtools',
 
     # third-party
-    #'djangorestframework',
     'south',
     'django_extensions',
     'easy_thumbnails',
