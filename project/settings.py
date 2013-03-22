@@ -146,7 +146,7 @@ COMPRESS_MTIME_DELAY = 20
 COMPRESS_PRECOMPILERS = (
     ('text/less', 'lessc {infile} {outfile}'),
     ('text/x-sass', 'sass {infile} {outfile}'),
-    ('text/x-scss', 'scss -r static_files/css/bourbon/lib/bourbon.rb {infile} {outfile}'),
+    ('text/x-scss', 'scss {infile} {outfile}'),
 )
 
 # A sample logging configuration. The only tangible logging
