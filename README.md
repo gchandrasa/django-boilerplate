@@ -9,14 +9,14 @@ Gilang Chandrasa's django project boilerplate.
 
 
 # Required packages (requirements.txt)
-* django 1.4.5
-* django-extensions 0.9
+* django
+* django-extensions
 * django-model-utils
-* django-debug-toolbar 0.9.4
-* South 0.7.6
-* lxml 2.3.5
-* django-compressor 1.2
-* easy-thumbnails 1.1
+* django-debug-toolbar
+* South
+* lxml
+* django-compressor
+* easy-thumbnails
 
 
 # Setup
